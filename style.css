@@ -4,11 +4,17 @@ body {
     background-color: rgb(196, 227, 255);
 }
 
-h1 {
+
+    
+
+.navbar {
     background-color: rgb(17, 188, 255);
     margin-top: 0;
-    text-align: center;
     padding: 10px;
+    
+}
+
+.navbar, h1 {
     font-family: 'Kanit', sans-serif;
 }
 
