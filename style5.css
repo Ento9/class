@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #140429;
+    background: #000;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    background: rgb(71, 71, 71);
+    color: #FFF;
+}
+menu {
+    height: 55px;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 3px;
+}
+
+menu button {
+    width: 100%;
+    height: 50px;
+    margin: 1px;
+    border: none;
+    color: #FFF;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+menu button:hover {
+    background: #FFF;
+    color: #000;
+}
+
+#edit {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#frame {
+    border: none;
+    height: 90vh;
+    background: #FFF;
+    width: 100%;
+}
+
+.text {
+    font-size: 1.3em;
+    color: rgb(87, 153, 197);
+    background: #222222;
+    resize: none;
+    border: none;
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+}
+::placeholder {
+    color: rgb(53, 73, 73);
+}
+
+:-ms-input-placeholder {
+    color: rgb(53, 73, 73);
+}
+
+::-ms-input-placholder {
+    color: rgb(53, 73, 73); 
+}
+
+:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 570px) {
+
+    main {
+        padding: 12px;
+        height: 100%;
+    }
+
+    #edit {
+        flex-direction: row;
+    }
+
+    #frame, .text {
+        height: 100%;
+        width: 50%;
+    }
+
+}
+
+.active {
+    background: #222222;;
+}
