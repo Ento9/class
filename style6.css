@@ -1,0 +1,44 @@
+body {
+    background-color: #EEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main a {
+    text-decoration: none;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #140429;
+    padding: 0.7rem;
+    transition: 0.2s ease-in-out;
+}
+
+main a:hover {
+    opacity: 0.5;
+}
+
+.title {
+    display: flex;
+    justify-content: baseline;
+}
+
+.title h3 {
+    margin-left: 1rem;
+}
+
+h5 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
